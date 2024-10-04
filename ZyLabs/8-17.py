@@ -15,8 +15,7 @@ def main():
             max_num = num
         total += num
     average = total / len(numbers)
-    print(f'{max_num:.2f}')
-    print(f'{average:.2f}')
+    print(f'{max_num:.2f}', f'{average:.2f}')
 
 if __name__ == '__main__':
     main()
